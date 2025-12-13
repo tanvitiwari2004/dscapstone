@@ -2,13 +2,8 @@ import re
 from memory import MemoryStore
 from llm_client import LLMClient
 from retriever_agent import RetrieverAgent
-
-'''
 from planner_agent import PlannerAgent
-from reasoner_agent import ReasonerAgent
 from evaluator_agent import EvaluatorAgent
-from fact_extractor_agent import FactExtractorAgent
-'''
 
 SYSTEM_PROMPT = """
 You are a helpful assistant.
@@ -23,7 +18,6 @@ Rules:
 
 
 def is_context_only(text: str) -> bool:
-    """Heuristic: statement that sets context, not a policy question."""
     t = text.strip().lower()
     if "?" in t:
         return False
@@ -38,12 +32,18 @@ def is_context_only(text: str) -> bool:
     return any(re.search(p, t) for p in patterns)
 
 
+def build_context_block(contexts):
+    return "\n\n---\n\n".join(f"[{c['chunk_id']}]\n{c['text']}" for c in contexts)
+
+
 def main():
     memory = MemoryStore(session_id="demo")
     llm = LLMClient(model="llama3.2:3b")
     retriever = RetrieverAgent(top_k=5)
+    planner = PlannerAgent(llm, max_subqueries=5)
+    evaluator = EvaluatorAgent(llm, max_extra=4)
 
-    print("Generic RAG Chat (type 'exit' to quit)\n")
+    print("Generic Agentic RAG Chat (type 'exit' to quit)\n")
 
     while True:
         q = input("You: ").strip()
@@ -54,7 +54,7 @@ def main():
 
         memory.add_turn("user", q)
 
-        # Context-only turn (no retrieval)
+        # context-only turn: acknowledge + store
         if is_context_only(q):
             memory.set_fact("user_context", q)
             msg = "Got it — I’ll keep that context in mind."
@@ -64,19 +64,22 @@ def main():
             print("\n" + "-" * 70 + "\n")
             continue
 
-        # 1) Retrieve relevant chunks
-        contexts = retriever.retrieve([q])
-
-        # 2) Build context block
-        context_block = "\n\n---\n\n".join(
-            f"[{c['chunk_id']}]\n{c['text']}" for c in contexts
-        )
-
         user_context = memory.get_facts().get("user_context", "")
 
+        # 1) PLAN → subqueries
+        subqueries = planner.plan(q, user_context=user_context)
+
+        # 2) RETRIEVE
+        contexts = retriever.retrieve(subqueries)
+        context_block = build_context_block(contexts)
+
+        # 3) ANSWER (draft)
         user_prompt = f"""
 USER_CONTEXT:
 {user_context}
+
+SUBQUERIES (used for retrieval):
+{subqueries}
 
 CONTEXT:
 {context_block}
@@ -87,15 +90,49 @@ QUESTION:
 Answer using ONLY the CONTEXT and cite chunk_ids.
 """.strip()
 
-        # 3) LLM grounded answer
-        answer = llm.chat(SYSTEM_PROMPT, user_prompt)
+        draft = llm.chat(SYSTEM_PROMPT, user_prompt)
 
-        # 4) Save assistant turn with citations
-        used = [c["chunk_id"] for c in contexts]
-        memory.add_turn("assistant", answer, citations=used)
+        # 4) EVALUATE → maybe re-retrieve once
+        used_ids = [c["chunk_id"] for c in contexts]
+        needs_more, extra_queries, reason = evaluator.evaluate(
+            question=q,
+            user_context=user_context,
+            answer=draft,
+            context_chunk_ids=used_ids,
+        )
+
+        if needs_more and extra_queries:
+            contexts2 = retriever.retrieve(extra_queries)
+            context_block2 = build_context_block(contexts2)
+
+            user_prompt2 = f"""
+USER_CONTEXT:
+{user_context}
+
+EXTRA_QUERIES (requested by evaluator):
+{extra_queries}
+
+CONTEXT:
+{context_block2}
+
+QUESTION:
+{q}
+
+Answer using ONLY the CONTEXT and cite chunk_ids.
+""".strip()
+
+            final_answer = llm.chat(SYSTEM_PROMPT, user_prompt2)
+            final_used_ids = [c["chunk_id"] for c in contexts2]
+        else:
+            final_answer = draft
+            final_used_ids = used_ids
+
+        memory.add_turn("assistant", final_answer, citations=final_used_ids)
 
         print("\nBot:\n")
-        print(answer)
+        print(final_answer)
+        # optional debug line (keep or remove)
+        # print(f"\n[debug] evaluator: {needs_more=} reason={reason} extra={extra_queries}\n")
         print("\n" + "-" * 70 + "\n")
 
 

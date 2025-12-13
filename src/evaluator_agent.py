@@ -1,31 +1,68 @@
-import re
+import json
+from typing import List, Tuple
+
 
 class EvaluatorAgent:
     """
-    Checks if the draft includes key requirements/exceptions that are commonly missed.
-    If missing, returns extra retrieval prompts to fetch better evidence.
+    Generic evaluator:
+    - Checks if the answer is incomplete, ambiguous, or overly cautious
+    - Decides whether more retrieval is needed
     """
 
-    def evaluate(self, question: str, draft: str):
-        cited = re.findall(r"\[ba_lr_\d+\]", draft)
-        ok = len(cited) > 0
+    def __init__(self, llm_client, max_extra: int = 4):
+        self.llm = llm_client
+        self.max_extra = max_extra
+        self.system = """
+You are an evaluator for a retrieval-grounded assistant.
 
-        extra_queries = []
+Return ONLY valid JSON in this schema:
+{
+  "needs_more_evidence": true/false,
+  "extra_queries": ["...", "..."],
+  "reason": "short reason"
+}
 
-        q = question.lower()
-        d = draft.lower()
+Rules:
+- If the answer is incomplete, vague, or conditional without explanation,
+  set needs_more_evidence=true.
+- If the answer reasonably addresses the question using available context,
+  set needs_more_evidence=false.
+- extra_queries should help retrieve missing or clarifying information.
+- JSON only. No commentary.
+""".strip()
 
-        # If user asked about medication/liquids over 100ml, ensure key terms appear
-        if "medication" in q or "medicine" in q or "medical" in q:
-            if "prescription" not in d and "medical letter" not in d:
-                extra_queries.append("liquid medication hand baggage prescription medical letter beyond 100ml")
-            if "original packaging" not in d:
-                extra_queries.append("medication original packaging hand baggage requirement")
-            if "security" not in d:
-                extra_queries.append("avoid delays at security customs doctor letter medication")
-        
-        # General: if no citations, force retrieval
-        if not ok:
-            extra_queries.append("Find the exact BA policy text relevant to the question")
+    def evaluate(
+        self,
+        question: str,
+        user_context: str,
+        answer: str,
+        context_chunk_ids: List[str],
+    ) -> Tuple[bool, List[str], str]:
 
-        return ok, extra_queries
+        prompt = f"""
+USER_CONTEXT:
+{user_context}
+
+QUESTION:
+{question}
+
+ANSWER:
+{answer}
+""".strip()
+
+        raw = self.llm.chat(self.system, prompt)
+
+        try:
+            data = json.loads(raw)
+            needs = bool(data.get("needs_more_evidence", False))
+            extra = data.get("extra_queries", []) or []
+            reason = str(data.get("reason", "")).strip()
+
+            extra = [q.strip() for q in extra if isinstance(q, str) and q.strip()]
+            extra = extra[: self.max_extra]
+
+            return needs, extra if needs else [], reason
+
+        except Exception:
+            # Safe fallback: do not loop endlessly
+            return False, [], "Evaluator output not parseable."
