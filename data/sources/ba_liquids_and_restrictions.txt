@@ -1,3 +1,7 @@
+# British Airways — Liquids and Restrictions (Restricted & Prohibited Items)
+
+## Primary page content (Liquids, powders, batteries, restricted items)
+
 Title: British Airways — Liquids and Restrictions (Restricted & Prohibited Items)
 Source: https://www.britishairways.com/content/information/baggage-essentials/liquids-and-restrictions
 Notes: Public policy page captured for sandbox chatbot. No booking/account data.
@@ -6,8 +10,8 @@ Notes: Public policy page captured for sandbox chatbot. No booking/account data.
 CONTENT STARTS BELOW
 ====================
 
-==== Baggage essentials =====
-=== Restricted and prohibited items ===
+=== Baggage essentials ====
+--- Restricted and prohibited items---
 Many items are restricted, controlled or completely prohibited onboard our aircraft due to international law, aircraft safety or regulations at your destination.
 
 Always check local country, airport and airline rules before you fly.
@@ -18,12 +22,13 @@ In the US – Check with the Transport Security Administration (TSA).
 
 You must contact us in advance if you need clarification of the regulations or require airline approval when planning to travel with restricted or controlled items.
 
-==== Liquids, creams, powders and aerosols ====
+=== Liquids, creams, powders and aerosols ===
 You can take these items on the plane in your checked baggage, but most countries have restrictions on the types and quantity you may take into the cabin in your hand baggage.
 
 You are strongly advised to check the hand baggage requirements below that contain important security information.
+
 === Hand baggage requirements for liquids and powders ===
-== Liquids ==
+--- Liquids ---
 Each liquid must be in its own container, measuring no more than 100ml (3.4oz).
 All liquids must be put in a single, transparent, re-sealable plastic bag of up to 20 x 20cm (8 x 8in) with a total capacity of up to 1 litre approx. 1 quart.
 You must be able to completely close the bag and fit it in your hand baggage.
@@ -34,16 +39,15 @@ Some UK airports have installed advanced imaging scanners that allow you to leav
 For flights outside the UK and EU, please check the current safety and security requirements of the country you’re travelling to.
 Kenya has a strict ban on plastic bags in the country, so we recommend you travel with your liquids in a thicker, clear, re-useable polyurethane bag that fits the 20cm x 20cm maximum dimensions and seals closed. If you use a disposable plastic bag, discard it on board the flight or at a customs check point on arrival. The airport security area will have small liquids bags available for your journey out the country.
 
-== Powders ==
+--- Powders---
 If you’re flying to the US, you can carry up to 350g (12 oz) of powdered goods in your hand baggage. This includes items like cosmetics, spices, powdered milk, flour, sugar and coffee. Passengers who wish to travel with more than this must pack these items into their checked baggage.
 If you're flying from Australia, any inorganic powders in hand baggage must be carried in containers that do not exceed 350ml (12 oz) or 350g (12 oz) per person.
 
-=== Toiletries, aerosols medicines and medical supplies in hold baggage ==
+--- Toiletries, aerosols medicines and medical supplies in hold baggage---
 You can take the following items, for personal use, in your checked baggage:
 Toiletry items and aerosols such as hairsprays, perfumes and colognes.
 Non-flammable, non-toxic aerosols for home or sporting use.
 Medicines (non-radioactive), including those containing alcohol.
-== How much can you take? ==
 
 Under the IATA’s (International Air Transport Association) Dangerous Goods regulations, each person may carry the below weights in their baggage.
 
@@ -53,12 +57,105 @@ Volume per individual item: Max 500ml (17fl. oz)
 Volume per person: 2 litres (70fl. oz)
 You must ensure the seals and lids on toiletries and medicines are secure, and spray valves on any aerosols are protected to prevent accidental release of the contents into your baggage in the aircraft hold.
 
-== Medical supplies ==
+---  Medical supplies ---
 If you’re travelling with essential liquid medical supplies like dialysis fluid, that’s packed in a separate bag and checked into the hold, you're able to take more than the standard amount listed above. To do this, you’ll need an official medical letter signed and dated by your personal medical practitioner.
 
-= paste the text file of the medical page here = 
+=== Medical clearance ===
 
-=== Alcoholic drinks ==== 
+Medical clearance is required for certain conditions including:
+• Recent illness, injury, surgery or hospitalisation
+• Unstable medical conditions
+• Use of oxygen or medical equipment onboard
+• Travel for medical treatment
+
+Medical clearance must be obtained prior to travel.
+
+=== Pregnancy ===
+
+--- Travel limits ---
+• Single pregnancy: travel permitted up to end of 36th week
+• Multiple pregnancy: travel permitted up to end of 32nd week
+
+--- Documentation ---
+Medical documentation is required from week 28 onward.
+Earlier travel does not require documentation.
+
+=== Travelling with medicines and medical supplies ===
+
+--- Hand baggage ---
+• Carry essential medication in hand baggage
+• Liquid medication is permitted beyond standard liquid limits with prescription
+• Medication should be in original packaging
+
+--- Checked baggage ---
+Additional medical supply bags may be checked in free of charge, subject to authorisation.
+Bags must contain medical supplies only.
+
+=== Medical equipment ===
+
+--- CPAP machines ---
+• Permitted in cabin as an extra item
+• May be checked in free of charge
+• Battery operation required
+
+--- Oxygen and respiratory devices ---
+• Portable oxygen concentrators require approval
+• Battery capacity must cover 150% of travel time
+• Maximum lithium battery size: 160Wh
+• Maximum two spare batteries allowed
+
+--- Oxygen cylinders ---
+• Maximum weight per cylinder: 5kg
+• Liquid oxygen is forbidden
+
+=== Allergies ===
+
+Passengers with food allergies should:
+• Carry medication in hand baggage
+• Inform cabin crew on boarding
+• Be aware allergen-free cabins cannot be guaranteed
+
+Alternative meals may be ordered on eligible flights.
+
+=== Infectious and medical conditions ===
+
+Travel eligibility depends on medical stability.
+Examples include:
+• Stroke: travel permitted after recovery period
+• Heart conditions: subject to medical advice
+• Asthma: permitted with inhaler carried
+• Epilepsy: no travel within 24 hours of seizure
+
+=== Babies and infants ===
+
+--- Newborns ---
+• Full-term newborns may travel after 48 hours
+• Premature infants may require medical clearance
+
+--- Babies with medical conditions ---
+Medical clearance required prior to booking.
+
+=== Deep Vein Thrombosis (DVT) ===
+
+Risk increases on journeys over four hours.
+Preventative measures include:
+• Hydration
+• Regular movement
+• Compression stockings
+
+=== Broken bones and casts ===
+
+--- Restrictions ---
+• Short flights: no travel within 24 hours
+• Long flights: no travel within 48 hours
+• Split casts may travel immediately
+
+=== Disinsection (insecticide spraying) ===
+
+Some routes require aircraft spraying before arrival.
+Passengers will be informed prior to spraying.
+
+=== Alcoholic drinks ====
 There's no limit on the number of alcoholic beverages you can travel with as long as their alcohol volume is below 24%.
 
 You can bring up to five litres of alcohol with an alcohol volume between 24% and 70%. This can travel in your cabin bag if you purchased it in the airport duty-free shop, or you can pack in your checked baggage.
@@ -76,13 +173,13 @@ Please check the arrangements for all the airports on your journey to be certain
 
 Any items you buy at the airport or on board count towards your hand baggage allowance for your next flight. If you exceed this, you may need to check the items in and be charged a fee.
 
-=== Food and infant milk === 
+=== Food and infant milk ===
 
 You can take solid foods like sandwiches, biscuits, fruit, nuts, etc. on board but the same restrictions for liquids apply to liquid foods, e.g. drinks, soups, sauces, jam or jelly (see guidance above). Be aware that there are no facilities to warm or refrigerate anything that you bring onboard.
 
 We don’t serve peanuts on board our flights, due to the number of customers with allergies, and we ask that you do not bring them into the cabin.
 
-=== Infant milk and baby food === 
+=== Infant milk and baby food ===
 
 If you are travelling with an infant, you are allowed to carry as much infant milk, baby food, powdered milk formula and sterilised water, stored in a baby bottle, as required for your trip, even if this exceeds the usual limit on liquids.
 
@@ -96,11 +193,11 @@ The country of your destination may restrict the types of food allowed into the 
 
 For information on what food you can bring into the UK, visit the UK government website.
 
-=== Insulated packaging with liquid nitrogen === 
+=== Insulated packaging with liquid nitrogen ===
 In accordance with the IATA Dangerous Goods Regulations 2.3.5.10 this item does not require operator approval. You can take insulated packaging containing refrigerated liquid nitrogen (dry shipper) in your hand or checked baggage. It needs to be fully absorbed in a porous material and only contain non-dangerous goods.
 
-==== Batteries, electric and electronic devices ==== 
-=== Smaller personal electronic devices with lithium ion/metal batteries === 
+==== Batteries, electric and electronic devices ====
+=== Smaller personal electronic devices with lithium ion/metal batteries ===
 For your own personal use you can take up to 15 battery-operated Personal Electronic Devices (PED) that containing lithium batteries such as laptops, tablets, smart phones, cameras, music players, smart baggage tags (e.g. Apple AirTag).
 
 Please always ensure that:
@@ -110,7 +207,7 @@ You don't take any damaged batteries or electrical equipment with you.
 Please note: If the watt hour (Wh) rating is not shown on the battery or cannot be determined, then the battery cannot be accepted onboard. You can use the following formula to calculate the Wh rating:
 Milliamp hour rating/1000 multiplied by the voltage equals Wh.
 
-=== Batteries of up to 100Wh as used in mobile phones, laptops, digital cameras etc. === 
+=== Batteries of up to 100Wh as used in mobile phones, laptops, digital cameras etc. ===
 In hand baggage
 
 Must be kept in the device.
@@ -122,7 +219,7 @@ In checked baggage
 
 Must be kept in the device.
 The device must be completely switched off (not in sleep or hibernation mode).
-Smart luggage tags (e.g. Apple AirTag) may remain energised provided the device contains only lithium batteries not exceeding: 
+Smart luggage tags (e.g. Apple AirTag) may remain energised provided the device contains only lithium batteries not exceeding:
 Lithium metal content must not exceed 0.3g of lithium
 Lithium-ion batteries must not exceed 2.7Wh
 Spare batteries are forbidden in checked baggage and must be carried in the cabin.
@@ -147,20 +244,20 @@ Devices with batteries installed can travel in checked baggage and must be prote
 The device must be completely switched off (not in sleep or hibernation mode).
 Spare batteries are forbidden in checked baggage.
 
-=== Batteries over 160Wh as used in car batteries, underwater lamps etc. === 
+=== Batteries over 160Wh as used in car batteries, underwater lamps etc. ===
 In hand/checked baggage
 
 These are not possible to take with you.
 Product safety recall information
 
 If a product that contains a lithium battery is subject to a safety recall related to the battery, it must not be carried aboard an aircraft unless the recalled product/component has been replaced or repaired in accordance with the manufacturer’s instructions.
-=== Fuel cells === 
+=== Fuel cells ===
 You can take fuel cells and spare fuel cartridges for powering portable electronic devices (e.g. cameras, mobile/cell phones, laptops and camcorders) in your hand baggage only.
 
 === Non-spillable batteries ===
 You can take portable electronic devices containing non-spillable batteries in your hand or checked baggage. Batteries must meet IATA Special Provision A67 (information is available from the battery manufacturer or supplier) and must be 12 volts or less and 100Wh or less. You can also take a maximum of two spare batteries.
 
-=== Battery-operated wheelchairs, mobility scooters and mobility aids === 
+=== Battery-operated wheelchairs, mobility scooters and mobility aids ===
 If your wheelchair, mobility scooter or mobility aid is battery-operated, you must let us know in advance and register your mobility aid by logging in to your booking in Manage My Booking then choosing ‘Disability and Assistance’ from the ‘Service Requests’ section in Quick Links at the bottom of the page.
 
 == Travelling with your own wheelchair ==
@@ -169,7 +266,6 @@ To give you plenty of time to board the aircraft ahead of other passengers, plea
 We may be able to store one collapsible manual wheelchair in the cabin, depending on available space. This is allocated on a 'first come, first served' basis. Please contact staff at the boarding gate for more information.
 We have wheelchairs on our aircraft to assist you on board. You'll need to be able to lift yourself from your seat onto the wheelchair, or travel with a companion who can help you do that.
 If you're checking in your wheelchair, make sure to attach a tag with your contact details to it.
- 
 
 == Battery-operated wheelchairs, mobility scooters and mobility aids ==
 If you have reduced mobility and want to take your device with you, we need to make sure we store your battery-operated wheelchair, mobility scooter or mobility aid safely in the hold of the aircraft, so we need the following information:
@@ -184,7 +280,6 @@ We'll always try and place your wheelchair or mobility aid in containers to keep
 
 If we're unable to prevent unintended operation of the electric mobility aid.
 If the weight exceeds the loading capacity on our smaller aircraft that are operated by our subsidiary BA CityFlyer to and from London City.
- 
 
 == Batteries (including spare batteries)==
 There are various battery handling requirements dependent upon what type of battery your wheelchair, mobility scooter or mobility aid has. We have therefore provided some additional guidance on the battery handling requirements.
@@ -240,7 +335,7 @@ The battery must be packed in strong, rigid, leak-proof packaging which is imper
 The packaging must be marked ‘BATTERY WET WITH WHEELCHAIR’ and marked with ‘Corrosive’ (Class 8) and orientation (this way up) labels.
 Spare spillable batteries are not permitted.
 
-=== Security checks for electronic devices === 
+=== Security checks for electronic devices ===
 You can generally take electric and electronic items in your hand or checked baggage, but you need to follow specific safety instructions:
 
 Airport security staff may ask you to turn on electronic or battery-powered devices, such as phones, tablets, e-books and laptops, to demonstrate they function. If you're not able to do this, you will not be able to take your device with you (see options below).
@@ -255,7 +350,7 @@ If you want to take your device in your hand baggage, you can rebook to a later 
 Items not allowed on our aircraft will be held by Bagport, who operate the lost property office in London Heathrow. You will be given a Bagport reference so that you can contact them directly for details of how to retrieve your item through their MailAndFly service.
 If you're travelling from London Gatwick or a non-UK airport, please contact our customer services team at the airport who can advise on available options.
 
-=== Smart Baggage === 
+=== Smart Baggage ===
 Smart Baggage is a bag (rucksack, suitcase or similar) that contains a detachable lithium battery/power bank used to recharge Personal Electronic Devices (PEDs) i.e. mobile phones, tablets, laptops etc. These bags, with specific restrictions, are allowed on our aircraft if the battery is removable.
 
 This doesn’t include electric powered ride-on baggage (such as Airwheels baggage), where a lithium battery is used to provide electromotive power to propel the suitcase. These are not considered Smart baggage and are NOT permitted on our aircraft, either checked in as hold baggage or as cabin baggage.
@@ -279,7 +374,7 @@ If you are bringing Smart Baggage with you, please ensure that you are aware of 
 
 If your flight is operated by one of our partner airlines, please contact that airline to ensure you are aware of their Smart Baggage restrictions.
 
-==== Sports and recreational items ==== 
+==== Sports and recreational items ====
 === Sports equipment ===
 Some sports and recreational equipment, such as sporting guns, sharp or blunt objects like bats, are also in the restricted and prohibited items category further down the page.
 
@@ -291,9 +386,123 @@ Canoes or kayaks and paddles over 190 cm in length
 Windsurfing boards and sails
 These items may be sent as cargo with our partner IAG Cargo.
 
- paste the code here 
+=== Sports equipment ===
 
-=== Small electric leisure e-vehicles and propulsion devices powered by lithium batteries ===  
+General rules apply to all sporting equipment. Items may be carried as part of your checked baggage allowance, as an extra checked bag, or as cargo depending on size, weight, and safety restrictions.
+
+Items heavier or larger than maximum checked baggage dimensions must be shipped as cargo unless otherwise stated.
+
+Some sharp, electrical or potentially dangerous items are not permitted on board the aircraft.
+
+--- General requirements ---
+• Sporting equipment must be packed securely.
+• Adequate travel insurance is recommended.
+• Items exceeding baggage allowance may incur additional charges.
+
+=== Bicycles ===
+
+--- Eligibility ---
+You can take non-motorised, non-electric pedal bicycles in a bicycle cover or box.
+They count as one item of your checked baggage allowance.
+
+--- Size limits ---
+Maximum size: 190 x 95 x 65 cm (75 x 37.5 x 25.5 in)
+
+--- Check-in requirements ---
+Bikes are treated as oversize baggage and must be dropped at the out-of-gauge bag drop:
+• Long haul: at least 3 hours before departure
+• Short haul: at least 2 hours before departure
+
+--- Packing rules ---
+• Clearly label the bike inside and outside the container
+• No clothing or personal items may be packed inside the bike box
+
+=== Diving equipment ===
+
+--- Permitted items ---
+• Scuba regulator
+• Tank harness
+• Tank pressure gauge
+• Face mask
+• Fins
+• Buoyancy control device
+• Snorkel
+• Weight belt
+• Cylinder tank
+• Spear guns and harpoons
+• Diving lamps
+
+--- Safety conditions ---
+• Cylinder tanks must be empty and presented at check-in
+• Spear guns and harpoons must be packed separately
+• Diving lamps require prior approval
+• Bulbs or fuses must be removed and packed separately
+
+=== Golf equipment ===
+
+Golf equipment packed in a protective golf bag or hard case may be taken as one item of checked baggage.
+
+--- Contents allowed ---
+• Golf clubs
+• Golf umbrella
+• Golf balls
+• Golf tees
+• Golf shoes
+
+--- Oversize handling ---
+Golf bags are treated as oversize baggage and must be checked in at the out-of-gauge bag drop.
+
+=== Firearms ===
+
+Firearms may only be carried as checked baggage under strict conditions.
+Approval must be obtained at least 72 hours before departure.
+Firearms not approved in advance will not be accepted.
+
+=== Skiing and snowboarding equipment ===
+
+--- Size limits ---
+Maximum packed size: 190 x 75 x 65 cm
+
+--- Packing rules ---
+• Must be packed in a protective bag
+• Boots and clothing may be packed in the same bag
+• Ski boots cannot be worn onboard
+
+--- Cabin allowance ---
+Boot bags may be carried as hand baggage only if within cabin size limits.
+
+=== Surfboards and water sports ===
+
+--- Permitted as checked baggage ---
+• Short surfboards
+• Small kayaks with paddles
+Maximum length: 190 cm
+
+--- Cargo required ---
+• Large surfboards
+• Canoes
+• Large kayaks
+
+=== Rackets and sports sticks ===
+
+--- Cabin baggage ---
+Racket cases are allowed as hand baggage if:
+• Maximum two rackets
+• Case under 80 x 45 x 10 cm
+• No additional items packed inside
+
+--- Checked baggage ---
+• Three or more rackets
+• Fishing rods
+• Hockey sticks
+• Billiard cues
+• Skateboard decks
+
+=== Prohibited sporting items ===
+
+Electric skateboards are not permitted in either cabin or checked baggage due to lithium battery safety risks.
+
+=== Small electric leisure e-vehicles and propulsion devices powered by lithium batteries ===
 
 Due to the potential fire risk, all small electric leisure vehicles powered by lithium batteries are strictly prohibited on board, either in the cabin or as checked baggage.
 
@@ -306,7 +515,7 @@ The restriction does not apply to battery-operated wheelchairs, seated mobility 
 === Avalanche rescue backpacks ===
 British Airways give automatic ‘operator approval’ for each passenger to carry one avalanche rescue pack containing cartridges of compressed gas* (IATA Division 2.2 non-flammable, non-toxic gas) subject to the following conditions;
 
-You can only take one rescue pack per person containing cartridges which must remain in the device. 
+You can only take one rescue pack per person containing cartridges which must remain in the device.
 Spare cartridges are NOT permitted.
 The airbags within the rescue pack must be fitted with pressure relief valves.
 The device may be equipped with pyrotechnic trigger mechanism containing no more than 200mg net explosive of per IATA Division 1.4S (no significant hazard).
@@ -341,7 +550,7 @@ The water capacity of each cartridge must not exceed 50ml (a carbon dioxide cart
 Limited to compressed gas (IATA Division 2.2 non-flammable, non-toxic gas) for inflation purposes.
 You must pack the cartridges so that they cannot be accidentally activated.
 This item should travel in your checked baggage as some airports do not allow them in the cabin.
-For your convenience, you must pack a copy of this page with the cartridges to identify that you have our ‘operator approval’ to carry the device/cartridges. 
+For your convenience, you must pack a copy of this page with the cartridges to identify that you have our ‘operator approval’ to carry the device/cartridges.
 You do NOT need to contact the airline or inform staff at the airport that you are carrying this item.
 Please note: Additional restrictions apply if you're travelling from the US. Even if an item is permitted, it may be subject to additional screening or not allowed through the checkpoint if it triggers an alarm during the screening process, appears to have been tampered with, or poses other security concerns. The final decision rests with TSA on whether to allow any items on the plane.
 
@@ -369,31 +578,30 @@ You can take hair-styling devices containing hydrocarbon gas in your hand or che
 === Medical or clinical thermometers ===
 You can take only one medical or clinical thermometer containing mercury in your checked baggage when it's for personal use and in its protective case. This excludes mercurial thermometers and barometers carried by representatives of a government weather bureau or similar agency - see separate guidance.
 
-
 === Lamps ===
 You can take energy-efficient lamps intended for personal or home use in your hand or checked baggage as long as they're in their retail packaging.
 
-=== Dry ice === 
+=== Dry ice ===
 British Airways give automatic ‘operator approval’ for each passenger to carry up to 2.5kgs of dry ice (solid carbon dioxide) when used to pack non-hazardous perishables subject to the following conditions:
 
 You can take a maximum of 2.5kg dry ice per person in your cabin or checked baggage.
 If you pack the dry ice in your checked baggage, you must mark or label the bag with the words 'dry ice' or 'carbon dioxide, solid', and add the net weight of dry ice or an indication that there is 2.5kg or less dry ice in the bag/package.
 The package must permit the release of carbon dioxide gas to allow venting.
-For your convenience, you must pack a copy of this page with the dry ice to identify that you have our ‘operator approval’ to carry the dry ice.  
+For your convenience, you must pack a copy of this page with the dry ice to identify that you have our ‘operator approval’ to carry the dry ice.
 You do NOT need to contact the airline or inform staff at the airport that you are carrying this item.
 
 === Permeation devices ===
 You can take permeation devices in your checked baggage only and they must meet IATA Special Provision A41 (this information will be available from the device manufacturer or supplier).
 
 === Internal combustion or fuel cell engines ===
-You need to have approval in advance if you want to take internal combustion or fuel cell engines on board. They can only be carried in your checked baggage and must be completely purged of fuel and fuel vapour. 
+You need to have approval in advance if you want to take internal combustion or fuel cell engines on board. They can only be carried in your checked baggage and must be completely purged of fuel and fuel vapour.
 
 If you require additional information regarding your item, or you require approval to bring your item on a flight, please contact our Safety Team. Please allow two UK working days for a reply and remember to supply us with your booking reference.
 
 === Islamic Holy Water ===
 Each customer of 12 years and older travelling from Jeddah (JED) to London, and onward connecting flights on the same booking, can check in one sealed five litre container of official Zamzam Water/Islamic Holy Water in addition to their checked baggage allowance in the hold. These can be carried any time of year, not just at the time of the Hajj, but also for Umrah pilgrimages. These containers are carried in a separate section of the aircraft hold to protect from any contamination.
 
-==== Prohibited or controlled items ==== 
+==== Prohibited or controlled items ====
 The items below are prohibited but there are some exceptions.
 === Firearms and ammunition ===
 The following are prohibited for carriage on either your person or in your hand baggage:
@@ -476,7 +684,6 @@ British Airways does not offer a connecting service for travelling with firearms
 
 If you're connecting between different UK airports, you must ensure that you have the appropriate licences/permissions to be in possession of a firearm in the UK and you must make your own arrangements for the transfer of your firearms to your connecting flight. Please allow more than the recommended minimum connection time.
 
-
 === Explosives, Christmas crackers, flammable substances and devices ===
 Explosives and flammable substances and devices that can be used, or appear capable of being used, to cause serious injury or to pose a threat to the safety of an aircraft are completely forbidden, including:
 
@@ -519,7 +726,7 @@ British Airways give automatic ‘operator approval’ for each passenger to car
 
 Flammable gas cylinders are forbidden.
 The fuel tank and/or fuel container must be completely drained of all liquid fuel and action has been taken to nullify the danger.
-The empty fuel tank and/or fuel container must be allowed to drain for one hour. 
+The empty fuel tank and/or fuel container must be allowed to drain for one hour.
 The fuel tank and/or fuel container must be left uncapped for six hours to allow any residual fuel to evaporate. If the tank smells of fuel, it cannot travel.
 Alternative methods such as adding cooking oil to the fuel tank and/or fuel container to elevate the flashpoint of any residual fuel and then emptying the tank are also acceptable.
 The empty fuel tank and/or fuel container must have the cap securely fastened and be wrapped in an absorbent material such as paper towel and placed in a polythene or equivalent bag. The top of the bag must be sealed or gathered and closed with an elastic band or twine.
@@ -528,7 +735,6 @@ You do NOT need to contact the airline or inform staff at the airport that you a
 Specimens with small quantities of flammable liquid
 
 You can take non-infectious specimens packed with small quantities of flammable liquid in your hand or checked baggage provided they meet IATA Special Provision A180. Please contact us for details.
-
 
 If you require additional information regarding your item, or you require approval to bring your item on a flight, please contact our Safety Team. Please allow two UK working days for a reply and remember to supply us with your booking reference.
 
@@ -549,7 +755,6 @@ If you're a representative of a government weather bureau or similar agency and 
 Chemical agent monitoring equipment
 
 If you're a staff member of the Organization for the Prohibition of Chemical Weapons (OPCW) on official travel and need to carry chemical agent monitoring equipment, please contact us to get approval. You can then take it in your hand or checked baggage.
-
 
 If you require additional information regarding your item, or you require approval to bring your item on a flight, please contact our Safety Team. Please allow two UK working days for a reply and remember to supply us with your booking reference.
 
@@ -572,14 +777,14 @@ Knives with blades of more than 6cm
 Traditional ceremonial knives such as the Scottish Skean Dhu (Sgian Dubh), the Sikh Kirpan or the Gurkha Kukris
 Scissors with blades of more than 6cm as measured from the fulcrum
 Martial arts equipment with a sharp point or sharp edge
-Swords and sabres 
+Swords and sabres
 However, you can take the following items in your hand or checked baggage:
 
 Knitting needles and crochet hooks
 Tweezers
 Disposable and cartridge razors (not loose blades)
 
-=== Tools === 
+=== Tools ===
 You can only take trade tools that can be used to either cause serious injury or threaten the safety of an aircraft in your checked baggage, not on your person or in your hand baggage. Examples include:
 
 Crowbars
@@ -604,10 +809,576 @@ Clubs and batons, such as billy clubs, blackjacks and night sticks
 Martial arts equipment
 Please check that these items are allowed to be brought into the country of your destination.
 
-=== Security-type cases === 
+=== Security-type cases ===
 Security-type attaché cases, cash boxes, cash bags, etc. incorporating dangerous goods, such as lithium batteries and/or pyrotechnic material are normally forbidden.
 
-
 If you require additional information regarding your item, or you require approval to bring your item on a flight, please contact our Safety Team. Please allow two UK working days for a reply and remember to supply us with your booking reference.
-=== Other prohibited items === 
+=== Other prohibited items ===
 To ensure the safety and security of our customers and our crew, we won't allow you to carry any other article that the airport manager or aircraft operator has reason to believe might be used or adapted for causing injury or incapacitation of a person, or endanger an aircraft.
+
+
+---
+
+## Related guidance (detailed): Medical conditions and pregnancy
+
+Source: British Airways Travel Assistance — Medical conditions and pregnancy
+
+
+Medical conditions and pregnancy
+Travelling can be a bit daunting if you have a medical condition or are pregnant, but in most cases you don't need to do anything different. You may need to take some precautions and the information below will help you understand what you need to do.
+
+Medical clearance – am I fit to fly?
+For some medical conditions you need to get medical clearance before you can fly, for example:
+
+Recent illness, hospitalisation, injury or surgery
+Existing unstable medical condition
+Need for additional oxygen or use of medical equipment on board
+Travelling for medical reasons or treatment
+How to get medical clearance
+Step 1: Download our Medical Clearance Form (pdf, 110kb, English only) and fill out part one.
+Step 2: Ask your doctor to complete part two.
+Step 3: Email the completed form (Step 1 and Step 2) to pmcu.pmcu@ba.com. Our Passenger Medical Clearance Unit (PMCU) will be able to advise if you're fit to fly. Medical forms should be despatched to the medical clearance team a minimum of 7 days prior to departure. Contact details for our PMCU can be found below.
+Passenger Medical Clearance Unit (PMCU)
+British Airways has a dedicated Passenger Medical Clearance team who can assess your fitness to fly and advise if you'll be able to travel.
+
+Available Monday to Friday, 08:00 to 16:00. Closed weekends and Bank Holidays
+
+Telephone: + 44 (0) 1895 694807
+
+Fax: + 44 (0) 20 8738 9644
+
+Email: pmcu.pmcu@ba.com
+
+If your flight is operated by one of our airline or franchise partners, they may have different processes so please contact them directly before you travel.
+
+If you need to use medical equipment on board that contains batteries, there might be some restrictions.
+
+Find information regarding using batteries on board Find information regarding using batteries on board
+Travelling when you're pregnant
+We welcome expectant mothers on board our flights during most of their pregnancy. To ensure the health and wellbeing of both mother and baby on the flight, please follow our guidelines. You may not be allowed to travel from some countries without your medical documentation.
+
+For your and your baby’s safety, you cannot fly after:
+
+The end of the 36th week if you are pregnant with one baby
+The end of the 32nd week if you are pregnant with more than one baby
+We require you to have our pregnancy form, or an official letter, completed and stamped by your Doctor or Midwife. This is required once you reach week 28 of your pregnancy. Travelling earlier than 28 weeks does not require any paperwork.
+
+The document should be dated as close to your travel date as possible and covers you for your entire journey (outbound and return), provided you do not require any medical care during your trip.
+
+Once completed, signed and stamped, present this document to airport check-in staff on the day of your travel.
+
+Download and complete the Pregnancy Form (pdf, 30kb, English only) Download and complete the Pregnancy Form (pdf, 30kb, English only)
+Travelling with a medical escort
+Sometimes, even if your medical condition is serious, you can still travel, but it must be with a medical escort. We recommend you book this through a recognised medical assistance company who specialise in this type of service.
+
+Travelling with medicines, medical supplies or medical equipment
+Please carry any medication you'll need for your flight, including liquid medicines, or medical supplies, such as syringes, in your smaller item of hand baggage. If possible, keep the medication in the original packaging and bring along a prescription or supporting letter from your doctor that confirms this medication is prescribed to you, to avoid delays at security or customs.
+We're not able to keep your medication cool. Please talk to your pharmacist about alternative options.
+You can check in up to two extra standard bags at the airport for journeys outside of the USA, if your bags carry essential medical supplies like dialysis fluid or colostomy bags. This applies when you’ve exceeded your hold baggage allowance, and the supplies are for your own personal use. They can weigh up to 23kg each and can be carried free of charge. These bags will be subject to authorisation at the airport.
+On journeys that include travel to the USA, an unlimited number of standard bags weighing 23kg each can be checked in free of charge, subject to authorisation of their contents at the airport.
+For bags containing liquid food, you can check in up to four extra standard bags weighing 23kg each at the airport on any journey that doesn’t include the USA, subject to authorisation of their contents at the airport.
+On journeys that include travel to the USA, you can check in an unlimited number of standard bags each containing only liquid food, free of charge. They can weigh up to 23kg and they are subject to authorisation at the airport.
+These additional bags should only contain medical supplies. If you include any other personal items, they won’t be authorised and you’ll have to pay extra to take them.
+Please ensure that you provide an official medical letter signed and dated by your personal doctor/medical practitioner stating the following:
+Your name and flight information, including booking reference details
+List of medical supplies/medication to be carried and what their purpose is
+Approximate weight/number of the items to be carried
+Name and contact phone number/email of your physician or medical practitioner
+If you don’t have this letter, you’ll need to pay excess baggage charges for any bags outside of your baggage allowance. A visual check of your medical bags may also be carried out to review their contents. You may also need your letter to assist with other countries' customs and immigration departments, as well as local security requirements.
+
+In most circumstances, you can use your authorised medical equipment on board, except during taxi, take-off, approach and landing. All equipment must be able to work from a battery as we can’t guarantee a power supply on board.
+
+Find information regarding using batteries on board Find information regarding using batteries on board
+You can take asthma inhalers in your hand or checked baggage.
+Medical clearance is not needed to travel with or use a CPAP Machine for sleep apnoea on board our aircraft. However, we recommend that you carry a letter from a medical professional stating why you need the machine for your journey.
+
+You can carry your device in the cabin as an extra piece of hand-baggage without charge.
+
+If you don’t need to use your CPAP machine in the cabin, and you want to check it into the hold, it will be permitted in addition to your free baggage allowance without charge.
+
+If you need to use your CPAP machine on board, you will need a DC adapter to plug into the in-seat power supply where installed. We recommend always carrying a dry cell battery for your device should seat power not be available.
+
+The maximum output of our in-seat power supply is 75 watts. If your machine needs a stronger output, you will need to bring a dry cell battery to power it.
+
+You can take non-flammable, non-toxic gas cylinders worn for the operation of mechanical limbs in either your hand or your checked baggage. If required, you can also take spare cylinders of a similar size to ensure you have an adequate supply during your journey.
+You can take epipens and hypodermic needles in your hand baggage (with a doctor's note/prescription) or in your checked baggage.
+You can take liquid medication in your hand or checked baggage.
+
+If you might need it during your journey, place it in your hand baggage. You can then carry as much as you need for your trip, even if this exceeds the usual limit on liquids, provided you have a supporting prescription or doctor’s note. The medicine does not need to fit in the transparent bag but you should have it ready for inspection by airport security.
+
+You can use a battery-operated nebuliser on board except during taxi, take-off, descent and landing.
+
+It is not possible to supply mains power on board.
+
+We will only carry personal oxygen or air, gaseous, cylinders required for medical use if we're unable to provide the required flow rate on board.
+
+If you need to take oxygen cylinders on board the aircraft for use during the flight or at your destination, please read the inflight oxygen information and required forms.
+
+Once approved, you can carry oxygen or air cylinders of max. 5kg gross weight in your hand or checked baggage.
+
+Liquid oxygen systems are forbidden for transport.
+
+You can usually take your portable dialysis machine with you on board as hand baggage but if it exceeds your hand baggage allowance you will need to check it in. This is free of charge.
+Find out more about lithium ion/metal batteries in portable medical devices and how to get approval before you travel.
+You can take a portable oxygen concentrator (POC) on board as part of your hand baggage allowance as long as it's approved by the Federal Aviation Administration (FAA).
+
+If you think you'll need to use it during the flight, you will need to get medical clearance before you fly.
+
+You should carry sufficient back up battery supply to cover a minimum of 150% of your entire travel time (including flight and transiting time).
+
+If your device uses lithium batteries, it is important to provide us with the watt-hour (Wh) rating of each battery it contains. Sometimes this is provided as a wattage and amp-hour rating instead. The maximum battery size permitted is 160Wh each and you can take a maximum of two spare batteries in your hand baggage.
+
+If your reservation is booked through British Airways but is operated by another airline, please check their own criteria for accepting portable oxygen concentrators on-board.
+
+Find information regarding using batteries on board Find information regarding using batteries on board
+You can only carry radioisotopic cardiac pacemakers or other devices (incl. those powered by lithium batteries) when implanted into your person or fitted externally, or radiopharmaceuticals contained within your body as the result of medical treatment. It is not possible to carry these items separately in your hand or checked baggage.
+You can take tablets and capsules in your hand baggage (with a doctor's note/prescription) or in your checked baggage.
+If you have any additional questions please contact PMCU If you have any additional questions please contact PMCU
+Travel health information
+Notifying us of an allergy
+
+To notify us of your allergies before you travel or to discuss your specific needs, please contact us if your flight is operated by British Airways, BA Euroflyer or BA Cityflyer.
+
+For flights operated by another carrier, you’ll need to contact them directly.
+
+When travelling with us, you must let your cabin crew know of your food allergy when boarding your flight. This is still the case even if you’ve already contacted us about your allergy information, as there may be instances where crew do not have access to your booking details.
+
+In-flight meals
+
+If you have a food allergy, we offer alternative meals on our flights suitable for those who need to avoid potential allergens, including seafood, dairy, eggs and gluten.
+
+Ordering an alternative meal
+
+Alternative meals are available to order on all flights, except when you’re flying in Euro Traveller, our economy cabin on our short-haul routes. We don’t serve a complimentary meal during these flights.
+
+You can purchase a wide range of refreshments from our High Life Café online before you travel in our Euro Traveller cabin, and we’ll deliver your food and drinks to your seat during your flight. Allergen information is available on the High Life website. You can also choose from a smaller selection of food items once you’re on board.
+
+While on board
+
+We source our food from all around the world.
+
+Ingredients that are considered potential allergens in the UK may differ from those in other countries, so please be aware that packaging on food may not list all the allergens included in UK legislation on UK-bound flights.
+
+When travelling with us, you must let your cabin crew know of your food allergy when boarding your flight. Our teams, including Customer Services, are not able to share your allergen information with cabin crew before your journey.
+
+To assist with food allergies
+
+You can bring your own food on board.
+Upon request and following boarding, cabin crew will be able to provide information relating to the allergens contained within the meals served. In some instances, meal packaging will also provide this information.
+To allow for cleaning and inspection of seats, customers will be able to pre-board the aircraft following presentation of there epinephrine/adrenaline auto-injector to staff at the gate. Customers must bring their own suitable wipes.
+Please note the following
+
+We cannot guarantee an allergen-free cabin environment or prevent other passengers from bringing their own food on board. Meals containing tree nuts may continue to be served throughout the aircraft and tree nut based snacks may also continue to be served in other cabins of travel depending on the aircraft type. We use the recommendations of the International Air Transport Association (IATA) for allergen-sensitive passengers to make sure your flight is as comfortable as we can make it.
+We do not currently offer any alternative meals free from sesame, tree nuts, lupin, soya, sulphites, mustard or celery.
+For customers consuming food of their choice, not provided by the airline - we are unable to heat or refrigerate any food items you might bring with you. If you prefer to consume your own food, we suggest non-perishable food. Please also check the different quarantine laws of your transit and/or destination with respect to food types permitted into the country.
+Guidance for Peanut, Tree Nut or Sesame allergy sufferers
+
+Our in-flight meals do not contain peanuts or peanut products. However, they may be produced at a facility that handles peanuts. We are unable to offer a peanut-free alternative meal.
+
+We do not provide an alternative meal option for customers with tree nut or sesame allergies.
+
+We cannot guarantee an allergen-free environment while travelling with us.
+
+Upon request, Cabin Crew will make an announcement so that other passengers are aware of your allergy. Cabin Crew will also suspend the serving of loose nut snacks in your cabin of travel.
+
+Serious life threatening allergic reactions (anaphylaxis)
+
+Serious life threatening allergic reactions on board are rare, but if you suffer from a serious life threatening allergy always speak to your doctor before you book to discuss potential risks and how you can minimise becoming ill on your trip.
+
+Here are a few examples of how you can prepare:
+
+Your epinephrine/adrenaline auto-injector should be carried in your hand baggage and presented to airport security personnel if requested.
+If you have been prescribed an epinephrine/adrenaline auto-injector like Epipen, Anapen, Twinject or Jext make sure you carry this with you in your hand baggage. Take an emergency treatment plan with you to minimise delays at airport security.
+Clearly label your medication to show who it should be administered to.
+You will be able to pre-board when you present your epinephrine/adrenaline auto-injector to staff at the gate. This will allow you to wipe down your seating area to help prevent inadvertent contact with allergen traces. Passengers must bring their own suitable wipes.
+When boarding the aircraft you must inform cabin crew of your food allergy.
+Advise cabin crew and the people seated next to you of your allergy, where you have placed the medication and what to do in an emergency. Our cabin crew can speak to people seated near to you to help explain your allergy.
+Ensure your medication is easily accessible throughout the flight, e.g. place it in the seat pocket or on you personally.
+Cabin crew are trained to recognise symptoms of anaphylaxis and administer treatment but if you are travelling with family, friends or guardians, they would be expected to treat you first.
+Wear a medi-alert bracelet.
+Anaphylaxis campaign website Anaphylaxis campaign website
+We are required by the World Health Organisation (WHO) or local Health Authorities to spray the inside of the aircraft before arrival into certain destinations to prevent the risk of insects spreading highly dangerous diseases, such as malaria and dengue fever.
+
+On routes where we are required to spray, cabin crew will advise that spraying is about to take place. This will give you the opportunity to cover your eyes and nose if you wish. The spray clears from the aircraft in a few minutes.
+
+Contents of the insecticides
+
+The sprays contain synthetic pyrethroids, which are widely used. The World Health Organisation (WHO) assesses the safety of insecticides and recommends the use of the following synthetic pyrethroids:
+
+Phenothrin, which has lethal effects on domestic insect pests. It is used against mosquitoes, houseflies and cockroaches.
+Permethrin, which is a broad spectrum insecticide used against a variety of pests.
+For flights to Australia, the aircraft must be sprayed prior to departure from Singapore with a Permethrin insecticide spray.
+
+British Airways flights that require disinsection
+
+BA Flights arriving into the UK from these countries require disinsection
+
+Algeria: Algiers
+Argentina: Buenos Aires
+Brazil: Rio de Janeiro, Sao Paulo
+China: Beijing, Hong Kong SAR of China, Shanghai
+Costa Rica: San Jose
+Dominican Republic: Punta Cana
+Egypt: Cairo
+Ghana: Accra
+India: Bangalore, Chennai, Delhi, Hyderabad, Mumbai
+Kenya: Nairobi
+Korea, Republic of: Seoul
+Malaysia: Kuala Lumpur
+Mexico: Cancun, Mexico City
+Nigeria: Abuja, Lagos
+Oman: Muscat
+Pakistan: Islamabad
+Peru: Lima
+Portugal: Funchal*
+Saudi Arabia: Riyadh, Jeddah
+South Africa: Cape Town, Durban, Johannesburg
+Thailand: Bangkok
+* Request from Madeira health authorities (2015) due to possible Dengue fever risk
+
+BA Flights departing from the UK to these countries require disinsection
+
+Argentina: Buenos Aires
+Barbados: Bridgetown
+India: Bangalore, Chennai, Delhi, Hyderabad, Mumbai
+Italy*: Brindisi, Bologna, Rome, Florence, Milan (Linate and Malpensa), Naples, Olbia, Perugia, Palermo, Pisa, Venice
+Jamaica: Kingston, Montego Bay
+Kenya: Nairobi
+Malaysia: Kuala Lumpur
+Seychelles: Mahe
+* Request from Italian health authorities (2024) due to possible Dengue fever risk – spraying required on all flights into Italy
+
+BA Shuttle routes outside the UK which require disinsection
+
+Flights departing from Antigua, arriving at Tobago
+Flights departing from Dammam, arriving at Bahrain
+Flights departing from Grenada, arriving at St Lucia
+Flights departing from Port of Spain, arriving at St Lucia
+Flights departing from Singapore, arriving at Sydney
+Flights departing from St Lucia, arriving at Grenada
+Flights departing from St Lucia, arriving at Port of Spain
+If your diabetes is stable you can fly with no restrictions, however you need to take care to look after yourself during your trip.
+
+If you are crossing time zones, make sure you know how to manage your insulin regime throughout the trip.
+You should carry your insulin in your hand baggage, otherwise it may freeze in the hold.
+Your insulin should be in the original packaging, easily identifiable and accessible during the flight.
+Always carry a prescription or supporting letter from your doctor to avoid delays at security or customs.
+To help you plan your meals and medication for your flight:
+
+Long-haul flights: a complimentary meal is usually served within two hours of take-off, followed by a smaller meal within two hours of landing. There are also snacks available between meal services.
+Short-haul flights: a complimentary snack and bottle of water is provided. You can also order food before your flight to be delivered to your seat from our High Life Cafe.  Orders can be placed up to 12 hours before departing the UK, and up to 24 hours before flying into the UK.
+Travel advice from Diabetes UK Travel advice from Diabetes UK
+Newborn with no medical complications
+
+Normal Term: British Airways is able to carry new born babies born at normal term (40 weeks) with no medical complications once they are 48 hours old. However, we recommend waiting until they are one week old. These children need no prior medical clearance.
+
+Premature Infants: British Airways is able to carry premature infants born at more than 37 weeks gestation, with no medical complications, once they have reached the normal delivery date (40 weeks) plus one week. These infants need no prior medical clearance.
+
+Premature newborn and ex-premature infants
+
+Children born at less than 37 weeks gestation that were born with no medical complications can be considered for carriage once they have reached normal term (40 weeks) plus one week, but they will require medical clearance until they reach 12 months old.
+
+Children born at less than 37 weeks gestation that were born with any respiratory complications (e.g. neonatal chronic lung disease / bronchopulmonary dysplasia etc) cannot be considered for carriage until they have reached normal delivery date (40 weeks) plus 6 months. From normal term plus 6 months old until they reach their first birthday, they will require medical clearance.
+
+In both cases please contact PMCU prior to booking.
+
+Babies with medical conditions
+
+Babies with any significant condition, such as cardiac disease, or any other condition requiring medical support, e.g. oxygen, medication, treatment during flight, should be discussed with PMCU prior to booking.
+
+Download and complete the Medical Clearance Form (pdf, 110kb, English only) Download and complete the Medical Clearance Form (pdf, 110kb, English only)
+If you wish to change your travel plans following a recent illness or surgery, contact your travel insurance provider before calling British Airways.
+
+You should only travel once your medical practitioner agrees you are fit to fly. Below is a rough guide.
+
+Major chest, abdominal or cranial surgery: You can travel 10 days after. If you had surgery within 4 weeks of travel contact PMCU.
+Tonsillectomy: You can travel 10 days after.
+Appendectomy or abdominal keyhole surgery: You can travel 5 days after. You should obtain a fit to fly letter from your treating doctor.
+Angioplasty: If the procedure went well you can usually fly after 3 days. Please contact PMCU.
+Heart surgery: If you feel well you can travel after 10 days, but we suggest you wait until after 4 weeks if possible. If you had surgery within 4 weeks of travel contact PMCU.
+Heart attack: You should not fly within 10 days and then only fly if it’s essential, but we recommend to wait until after 4 weeks. If you have been in hospital within 4 weeks of travel contact PMCU.
+Angina: If you don’t have regular attacks you can fly at any time but always carry your medication in your hand baggage. If you have been in hospital within 4 weeks of travel contact PMCU.
+Stable asthma: You can travel at any time but always carry your inhalers in your hand baggage.
+Chronic bronchitis, emphysema or other forms of chronic obstructive pulmonary disease: If you can walk 50m, without oxygen and getting breathless, you should be fit to fly. If you can’t walk this far you may need supplementary in-flight oxygen, which must be pre-booked. Even if you're intending to use your own Portable Oxygen Concentrator (POC) contact PMCU.
+Pneumothorax (deflated lung): You cannot fly unless the condition is fully resolved for at least 7 days (14 days if traumatic pneumothorax). If you had this condition within a month of the date you want to fly, contact PMCU.
+Stroke: If you are feeling well enough and your symptoms are stable or improving you can fly after 5 - 14 days. If you had a stroke within 14 days of the date you want to fly, contact PMCU.
+Epilepsy: You should not travel within 24 hours of a major seizure.
+Ear or sinus infection: The air in your middle ear and sinuses needs to be able to stabilise when you fly by allowing your ears to pop. Do not fly if your ears or sinuses feel blocked. You may suffer severe pain or perforate your eardrums causing long-term damage.
+Middle ear surgery: You can travel 10 days after.
+Cataract surgery and corneal laser surgery: You can travel 1 day after.
+Other eye surgery: At least 6 days (if gas introduced into your eye 2-6 weeks to allow any gas to be reabsorbed) If you had gas introduced into your eye (e.g. for treatment of detached retina) please contact PMCU who may need a report from your doctor.
+Anaemia: If your haemoglobin is below 8.5g/dl please let us know by contacting PMCU.
+Circulatory conditions, e.g. Deep Venous Thrombosis (DVT): If you had recent circulatory conditions, such as DVT but have been discharged from hospital and your condition is resolved you should be fit to fly. Please contact PMCU.
+Infectious disease: If you have an infectious disease and while it is still contagious, we are not allowed to carry you in line with International Health Regulations. Contact your doctor or PMCU to find out the infectivity period of your illness.
+Sickle cell disease: You can travel after 10 days. Please contact PMCU.
+Please check if you need any travel vaccinations for your destination before you travel. You can find more information about your country of travel and any medical information on the IATA Travel Centre.
+
+In the UK, our preferred travel partner for health services is MASTA (Medical Advisory Services for Travellers Abroad). They have the largest network of travel clinics across the UK and offer expert travel medicine advice and treatment, including a comprehensive immunisation service and a wide range of anti-malarial drugs.
+
+BA Travel Clinics vaccination records
+
+If you were vaccinated at one of our BA Travel Clinics before they closed in August 2006 and need a letter confirming your vaccination or a duplicate certificate of your Yellow Fever vaccination, please write to British Airways Health Services address below with the required information. Please note that we can only trace back vaccination information as far as 2002.
+
+For a letter confirming your vaccination:
+
+Name
+Address
+Date of birth
+Contact number
+Please enclose a stamped addressed envelope
+For a duplicate certificate of your Yellow Fever vaccination:
+
+Name
+Address
+Date of birth
+Contact number
+Month and year of your Yellow Fever vaccination
+Please enclose a stamped addressed envelope
+There's an administrative charge of £10 for this service, which you need to pay by cheque made payable to British Airways Health Services.
+
+Please send your letter to:
+
+British Airways Health Services - Travel Clinic records
+British Airways Plc
+Waterside (HMAG)
+PO Box 365
+Harmondsworth
+UB7 0GB
+
+Traveller’s thrombosis or Deep Venous Thrombosis (DVT) is a blood clot that forms in a vein, usually in the lower legs. Research has confirmed that if you are sitting in an aircraft, car, bus or train for more than four hours the risk of a blood clot forming may increase.
+
+Factors increasing the risk of DVT include:
+
+Being over the age of 40
+Suffering previously from DVT or a pulmonary embolism or someone in your close family suffering from it
+Use of oestrogen-therapy, oral contraceptives ('the Pill') or hormone-replacement therapy (HRT)
+Pregnancy
+Recent surgery or trauma, particularly to the abdomen, pelvic region or legs
+Cancer
+Some inherited blood-clotting abnormalities and other blood disorders.
+If you think any of the factors above may affect you, seek medical advice before travelling. Your doctor may advise that compression stockings or anti-coagulant medication can help to avoid the possibility of DVT.
+
+You can reduce the risk of DVT by:
+
+Drinking normal amounts of fluid
+Avoiding alcohol and caffeine
+Avoiding smoking
+Avoiding crossing your legs when you’re sitting down
+Taking a walk around the cabin regularly
+Standing in your seat area and stretching your arms and legs
+Doing regular foot and leg exercises during the flight
+Wearing loose-fitting, comfortable clothes when you’re travelling.
+If you recently had a DVT but have been discharged from hospital and your condition is resolved you should be fit to fly.
+
+Please contact PMCU to advise if you need to get medical clearance.
+
+If you have a broken bone and a plaster cast fitted you cannot fly within:
+
+24 hours if your planned flight is less than two hours
+48 hours if your flight is longer than two hours
+There are no restrictions travelling with a shoe boot.
+
+If you have a full leg cast you can travel in our First and Club World (business long-haul) cabins that offer more legroom. To be able to travel in our other cabins you will need to buy an extra seat (or seats) with moveable armrests so you can elevate your leg. Typically a child would require one extra seat, and an adult would require two extra seats.
+
+In some circumstances these restrictions may not apply so please contact our PMCU to discuss your individual situation.
+
+If you have a bi-valved (split) cast, you can travel at any time post injury, provided the cast is split.
+
+The following illnesses can be contagious. We’ve put together some guidance on when you can travel.
+
+Chickenpox: 6 days after the last crop of spots providing the spots have crusted/scabbed over and the passenger feels well and has no fever. You will require a letter from your Doctor confirming you are no longer contagious.
+Cholera: When your symptoms have settled, you feel well enough to travel and the public heath authority in your destination country agrees you are fit to travel.
+Hepatitis A: When you feel well enough to travel.
+Measles: 5 days after the rash first appeared - you will require a letter from your Doctor stating you are no longer contagious.
+Mumps: 8 days after the swelling began. You must feel well and have no fever.
+Shingles: If lesions are covered with a dressing. You must be well with no fever and any pain must be well controlled.
+Tuberculosis: If medical evidence proves you are not infectious.
+Flu: Once your symptoms have resolved.
+Short-haul flights (including connecting flights to and from long-haul segments)
+
+Customers requiring therapeutic oxygen on short-haul flights will be required to make their own provisions for all short-haul segments of their itinerary. Acceptable therapeutic oxygen provisions are outlined below. Customers need to obtain medical clearance for approval of their own therapeutic oxygen provisions. Medical forms should be emailed to PMCU a minimum of 7 days prior to departure.
+
+Complete your Medical Clearance Form (pdf, 110kb, English only).
+
+Acceptable therapeutic oxygen provisions:
+
+Portable Oxygen Concentrators
+
+Customers may bring a FAA approved portable oxygen concentrator (for more information please visit the FAA website.
+Customers must have sufficient battery provision for 150% of the flight duration (accounting for unexpected delays).
+Customers need to obtain medical clearance in advance to bring a portable oxygen concentrator. Medical forms should be despatched to the medical clearance team a minimum of 7 days prior to departure.
+If your reservation is booked through British Airways but is operated by another airline, please check their own criteria for accepting portable oxygen concentrators on-board.
+There are safety restrictions with double batteries used to power portable oxygen concentrators, because some do not meet IATA dangerous goods regulations. We accept batteries with a watt-hour rating of less than 100 watts. If you have a battery pack containing two batteries, for example 92.2wh + 92.2wh, we require clarity from the manufacturer that these batteries are electronically separated.  Currently, the only double batteries accepted on board are Inogen BA408, BA500, BA516 and Sequal Eclipse. Please ensure you take a picture of the bottom of your battery and email it to PMCU along with your Medical Clearance Form (pdf, 110kb, English only) so we can check your battery type.
+
+Oxygen Cylinders
+
+Customers may bring oxygen cylinders, providing they are manufactured specifically for the purposes of containing and transporting oxygen. We accept British Oxygen Company (BOC) cylinders only.
+Each cylinder and its contents must not exceed 5kg in weight.
+Only one customer per flight will be permitted to bring their own oxygen cylinders on board.
+Cylinders, valves and regulators, where fitted, must be protected from damage that could result in inadvertent release of the contents.
+Liquid oxygen, oxygen generators and oxygen cans are all forbidden on board the aircraft.
+Customers need to obtain medical clearance in advance to bring their own oxygen cylinders. Medical forms should be despatched to the medical clearance team a minimum of 7 days prior to departure.
+Complete your Personal Oxygen Request Form (pdf, 35kb, English only) and also your Medical Clearance Form (pdf, 110kb, English only) and email to PMCU.
+
+Long-haul flights
+
+We can only provide in-flight therapeutic oxygen to one person on board so if you need to use oxygen you must book it in advance. It's important to contact the Passenger Medical Clearance Unit to check availability prior to booking your flights. Please note we cannot provide oxygen on the ground at an airport.
+
+On board our Airbus A380 and Boeing 787 aircraft we offer the Avia Technique Pulse dose cylinder: Oxygen is provided ‘on demand’ and your Doctor will need to confirm that you can use this.
+
+There is no charge for in-flight therapeutic oxygen.
+
+If therapeutic oxygen is required, you will need medical clearance to fly. See details at the top of the page. Please allow the medical clearance team 48 hours to process your request. Medical forms should be sent to the team a minimum of 7 days prior to departure.
+
+Please complete your medical form Please complete your medical form
+If you need to dispose of needles, lancets, syringes or empty insulin cartridges on board please ask the cabin crew for the sharps box. Please do not leave the items in the toilets or seat pockets.
+
+
+---
+
+## Related guidance (detailed): Sports equipment
+
+Source: British Airways — Sports equipment
+
+
+Sports equipment
+Find out if you can bring your sporting equipment on board with you, check it in to your baggage allowance or if you need to take extra steps before you travel. From golf clubs to pedal bikes, diving equipment and more, explore how we can help make your journey as easy as possible.
+
+No matter if you’re a golfer, a rock climber, deep sea diver or snowboarder, there’s plenty of space for your weird and wonderful items. Just tell us you are bringing your sporting equipment by using our online chat via our contacts page as soon as you have booked your flight.
+
+If you’ve already used your free checked baggage allowance, you may have to pay to put extra bags in the hold.
+
+Anything heavier or larger than the maximum checked baggage dimensions must be shipped as cargo.
+
+What sports equipment are you bringing?
+Need to go over the weight and size limits? No problem. Heavy and big items can be shipped as cargo.
+
+The only exception is a pedal bike box, which can be taken as checked baggage. Just let us know you’re bringing it beforehand.
+
+We know how precious and valuable your equipment is, so make sure it’s packed securely and that you have adequate travel insurance.
+
+Some sharp, electrical or potentially dangerous items aren’t allowed on board the aircraft. It’s best to contact us to check or have a look at our list of restricted items.
+
+You can take non-motorised, non-electric pedal bicycles or push bikes in a bicycle cover or box on our flights. They count as one item of your checked baggage allowance.
+
+If you’re on our Economy Basic fare, which has no hold baggage allowance, or you’ve already used your free checked baggage allowance, you’ll have to pay to put your bike and container in the hold as an extra checked bag.
+
+What size bike can you bring?
+
+We need to know how big your bike container is and how much it weighs.
+
+Your bike can be transported in a hard-shell box or padded bike bag up to 190 x 95 x 65 cm (75 x 37.5 x 25.5 in).
+
+A bike box or bike bag is considered an oversize or out-of-gauge bag. You’ll need to check your bike in and then drop it off at the airport out-of-gauge bag drop no later than:
+
+3 hours (180 minutes) before departure on long haul
+2 hours (120 minutes) before departure on short haul
+This will make it more likely that your bike will travel on the same flight as you.
+
+Let us know you’re bringing your bike
+
+As soon as you’ve booked your flight, let us know that you’re bringing your bike by using the online chat on our Help page.
+
+Please do this as soon as possible, as some flights are very popular with cyclists. Your bike is more likely to travel with you if you tell us in advance, and at least three days (more than 72 hours) before you fly.
+
+Travelling with your bike
+
+Please ensure your bike is clearly labelled with your details on the outside and inside of its cover or box, preferably fastened to the bike frame.
+
+Clothes and other personal items must not be packed in your bike cover or box. This may cause delays during security screening or mean your bike cannot travel.
+
+You can take most items as part of your checked baggage allowance if it’s packed in a recognised kit bag and doesn’t exceed the maximum size and weight for checked baggage.
+
+Accepted items are:
+
+Scuba regulator
+Tank harness
+Tank pressure gauge (pressure-sensitive devices may need special packaging; refer to the manufacturer for advice)
+Face mask
+Fins
+Buoyancy control device
+Snorkel
+Weight belt
+Cylinder tank
+Spear guns
+Harpoons
+Diving lamps
+Cylinder tanks must be empty and presented at check-in for inspection. Spear guns and harpoons must be packed separately
+If you’re taking a diving lamp, please contact us at least 24 hours before you travel to get approval. Please remove the bulb or fuse and pack it separately from the power source.
+
+Golfing equipment packed in a protective golf bag, or hard case, can be taken as one item of your checked baggage allowance if your ticket includes checked baggage.
+
+Your golf bag may include items such as a set of golf clubs, a golf umbrella, a dozen balls, golf tees and a pair of golf shoes.
+
+A golf bag is considered oversize or out-of-gauge baggage. You’ll need to check your golf bag in and then drop it off at the airport out-of-gauge bag drop no later than:
+
+3 hours (180 minutes) before departure on long haul
+2 hours (120 minutes) before departure on short haul
+This will make it more likely that your golf bag will travel on the same flight as you.
+
+When you need to pay for an additional bag
+
+If you're travelling on our Economy Basic fare, which has no checked baggage allowance, or you’ve already used your checked baggage allowance, you’ll have to pay to put your golf bag in the hold as an extra checked bag. The best price is available online through Manage My Booking, otherwise you might have to pay the full price at the airport.
+
+If you carry your golf umbrella or any large umbrella or parasol separately, it will need to be checked in and will count as an item of checked baggage. You may have to pay a fee if you are over your baggage weight or number allowance.
+
+Let us know if you’re bringing your golf bag
+
+As soon as you’ve booked your flight, let us know you’re bringing your golf bag by filling in our email form and selecting  ‘Baggage queries’ from the drop-down. If you need to pay for an extra checked bag, you’ll need to do this on Manage My Booking before you email us.
+
+Please do this as soon as possible. Your golf bag is more likely to travel with you if you tell us in advance and at least three days (more than 72 hours) before you fly.
+
+You can travel with firearms as checked baggage under very specific conditions.
+
+You must contact us at least 72 hours before you fly to request approval and to comply with any government embargoes and restrictions. If you don’t contact us, your equipment won’t be allowed on board. Read more about firearms requirements.
+
+You can take skiing or snowboarding equipment as part of your checked baggage so long as the bag is within 190 x 75 x 65cm.
+
+Skis and snowboards must be packed in a protective bag and can be in the same bag as your boots or clothes.
+
+If you pack your boots separately from your skis or snowboard, your boot bag can be carried as your larger piece of hand baggage if it's within the correct dimensions. If it isn't, it must be checked in and will count as an extra checked bag.
+
+For safety reasons you can’t board the aircraft wearing ski boots.
+
+Let us know you are bringing your snow sports bag
+
+As soon as you have made your booking, let us know that you’re bringing your snow sport bag, especially if you know that you are on a popular snow sport route. Your snow sport bag is more likely to travel with you if you tell us in advance and at least three days (more than 72 hours) before you fly.
+
+A snow sport bag is an oversize or out-of-gauge bag so check your snow sport bag in and drop it off at the out-of-gauge baggage belt no later than:
+
+3 hours (180 minutes) before departure on long haul
+2 hours (120 minutes) before departure on short haul
+This will make it more likely that your bag will travel on the same flight as you.
+
+You can take short surfboards and small kayaks with paddles in a protective bag as part of your checked baggage as long as the packed bag is under 190cm in length. Clothes and other personal items must not be packed in with your equipment.
+
+Larger surfboards, kayaks, canoes and paddles need to be booked in as cargo.
+
+A sports racket for games such as tennis, squash or badminton is permitted as hand baggage if carried in a slim protective case, as one of your two pieces of hand baggage allowed in the cabin, providing:
+
+The case contains a maximum of two rackets and is under 80 cm long, 45 cm wide and 10 cm deep.
+No additional items, such as balls, shuttlecocks or clothing, are packed in the racket case.
+The racket case is stowed on top of other items in the overhead lockers to prevent damage and maximise space.
+If you carry three or more rackets, these must be packed in a protective bag and checked into the hold as part of your checked baggage allowance.
+
+Be aware that certain sports items are not permitted as hand baggage through airport security points at some airports, so check local requirements.
+
+Other sporting items such as collapsed fishing rods, billiard/snooker/pool cues, hockey sticks or traditional skateboard decks cannot be carried as part of your hand baggage due to their length, as they are typically over the 56cm length limit of items in the cabin.  These sporting items must always be carried in the hold, so it’s best to pack them in a protective bag or pack them in your suitcase.
+
+Each piece packed separately counts as an extra item towards your total baggage allowance and you may be charged for extra bags if you exceed your free hand or checked baggage allowance.
+
+Electric skateboards are not permitted on our aircraft at all, either in the cabin or in the hold, due to the unstable nature of lithium batteries.
+
+Travelling on partner airlines
+The weight of your bag as well as the number of bags you are allowed may be different when travelling on flights operated by our partner airlines, even if you are booked under a BA flight number. These are also called code-share flights, and the operating airline will be named in your itinerary.
+
+If a journey with connecting flights includes ‘BA’ and other airline codes, such as ‘AA’ or ‘IB’, your baggage allowance is generally determined by the airline that operates the longest flight in your itinerary.
+
+To learn more about baggage allowance on our partner airlines, please use the links below:
+
+American Airlines
+Finnair
+Iberia
+Japan Airlines
+Qatar Airways
+China Southern Airlines
