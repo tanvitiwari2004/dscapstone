@@ -1,0 +1,23 @@
+# ----------------------------
+# Python cache / compiled
+# ----------------------------
+__pycache__/
+*.pyc
+
+# ----------------------------
+# Runtime memory (agent sessions)
+# ----------------------------
+data/memory/
+src/data/memory/
+
+# ----------------------------
+# Vector indexes / embeddings
+# ----------------------------
+data/index/
+
+# ----------------------------
+# Environments / secrets
+# ----------------------------
+.env
+.venv/
+venv/
