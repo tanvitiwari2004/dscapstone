@@ -1,4 +1,4 @@
-from retriever import Retriever
+from src.retriever import Retriever
 
 SYSTEM_RULES = """You are a British Airways baggage policy assistant.
 Rules:

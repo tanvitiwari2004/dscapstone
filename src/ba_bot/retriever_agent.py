@@ -1,4 +1,4 @@
-from src.retriever import Retriever
+from retriever import Retriever
 
 class RetrieverAgent:
     def __init__(self, top_k: int = 5):
