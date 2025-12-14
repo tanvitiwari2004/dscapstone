@@ -1,12 +1,18 @@
 import json
-from typing import List, Tuple
+import re
+from typing import List, Tuple, Any, Dict
 
 
 class EvaluatorAgent:
     """
-    Generic evaluator:
-    - Checks if the answer is incomplete, ambiguous, or overly cautious
-    - Decides whether more retrieval is needed
+    Evaluator for a retrieval-grounded assistant.
+
+    It decides if more retrieval is needed based on:
+    - missing evidence
+    - vague/conditional answers
+    - ambiguity that could be resolved with more context
+
+    Returns: (needs_more_evidence, extra_queries, reason)
     """
 
     def __init__(self, llm_client, max_extra: int = 4):
@@ -28,8 +34,39 @@ Rules:
 - If the answer reasonably addresses the question using available context,
   set needs_more_evidence=false.
 - extra_queries should help retrieve missing or clarifying information.
-- JSON only. No commentary.
+- JSON only. No commentary. No markdown. No code fences.
 """.strip()
+
+    @staticmethod
+    def _extract_json_object(text: str) -> str:
+        """
+        Some models wrap JSON in text or ```json fences.
+        This extracts the first top-level JSON object substring.
+        """
+        if not text:
+            return ""
+
+        # Remove common code fences
+        t = text.strip()
+        t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.IGNORECASE)
+        t = re.sub(r"\s*```$", "", t)
+
+        # Find first {...} block
+        start = t.find("{")
+        end = t.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            return t[start : end + 1]
+        return t
+
+    @staticmethod
+    def _safe_bool(v: Any) -> bool:
+        if isinstance(v, bool):
+            return v
+        if isinstance(v, (int, float)):
+            return bool(v)
+        if isinstance(v, str):
+            return v.strip().lower() in {"true", "yes", "1", "y"}
+        return False
 
     def evaluate(
         self,
@@ -43,25 +80,48 @@ Rules:
 USER_CONTEXT:
 {user_context}
 
+AVAILABLE_CONTEXT_CHUNK_IDS:
+{context_chunk_ids}
+
 QUESTION:
 {question}
 
 ANSWER:
 {answer}
+
+Decide if more retrieval is needed. If yes, propose extra_queries that would retrieve missing evidence.
+Return JSON only.
 """.strip()
 
         raw = self.llm.chat(self.system, prompt)
 
         try:
-            data = json.loads(raw)
-            needs = bool(data.get("needs_more_evidence", False))
-            extra = data.get("extra_queries", []) or []
-            reason = str(data.get("reason", "")).strip()
+            raw_json = self._extract_json_object(raw)
+            data: Dict[str, Any] = json.loads(raw_json)
 
-            extra = [q.strip() for q in extra if isinstance(q, str) and q.strip()]
-            extra = extra[: self.max_extra]
+            # Allow mild key drift from the model
+            needs = data.get("needs_more_evidence", data.get("needs_more", False))
+            needs = self._safe_bool(needs)
 
-            return needs, extra if needs else [], reason
+            extra = data.get("extra_queries", data.get("queries", [])) or []
+            reason = str(data.get("reason", data.get("why", "")) or "").strip()
+
+            # Normalize extra queries
+            if isinstance(extra, str):
+                extra = [extra]
+            if not isinstance(extra, list):
+                extra = []
+
+            extra_clean = []
+            for q in extra:
+                if isinstance(q, str):
+                    q2 = q.strip()
+                    if q2:
+                        extra_clean.append(q2)
+
+            extra_clean = extra_clean[: self.max_extra]
+
+            return needs, (extra_clean if needs else []), reason
 
         except Exception:
             # Safe fallback: do not loop endlessly
